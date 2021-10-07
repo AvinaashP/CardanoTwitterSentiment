@@ -7,7 +7,11 @@
 PROJECT_DIR := $(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
 BUCKET = [OPTIONAL] your-bucket-for-syncing-data (do not include 's3://')
 PROFILE = default
+<<<<<<< HEAD
 PROJECT_NAME = CardanoTwitterSentiment
+=======
+PROJECT_NAME = CustomerChurn
+>>>>>>> refs/remotes/origin/main
 PYTHON_INTERPRETER = python3
 
 ifeq (,$(shell which conda))
